@@ -20,6 +20,6 @@ This is a little project to demonstrate my knowledge of the Django framework. Th
 ### 4. Run the server
 #### 4.1. Run the server
 I have already created a small database with some menu items. You can run the server and see the website. 
+
 	python manage.py runserver
 	go to http://127.0.0.1:8000/ to see the website
-	
