@@ -1,6 +1,6 @@
 ### Little lemon project
 ### 1. Introduction
-This is a little project to demonstrate my knowledge of the Django framework. The project is a simple restaurant website with a menu, a reservation form and menu items. The project can be deployed on your local machine.This project is just about Back-end development and a bit of Front-end development. It has a fully functional database with a menu and menu items. The website is responsive and has a nice design.
+This is a little project to demonstrate my knowledge of the Django framework. The project is a simple restaurant website with `home`, `menu`, `book`, `about` pages. The project can be deployed on your local machine.This project is just about Back-end development and a bit of Front-end development. It has a fully functional database with a menu and menu items. The website is responsive and has a nice design.
 
 ### 2. Installation
 #### 2.1. Requirements
