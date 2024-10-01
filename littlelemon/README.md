@@ -6,9 +6,13 @@ This is a little project to demonstrate my knowledge of the Django framework. Th
 #### 2.1. Requirements
     You can find the requirements in the requirements.txt file.
 #### 2.2. How to use
-	1. Clone the repository
-	2. Install the requirements
-	3. Run the server
+1. Clone the repository
+```bash
+git clone git@github.com:mtoof/Final-project-Django-course.git
+```
+
+2. Install the requirements
+3. Run the server
 
 ### 3. Install the requirements
 	pip install pipenv
