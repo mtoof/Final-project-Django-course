@@ -11,6 +11,10 @@ RUN pip install -r requirements.txt
 
 RUN python manage.py collectstatic --noinput
 
-CMD ["gunicorn","--bind", "0.0.0.0:8000", "littlelemon.wsgi:application"]
+COPY entrypoint.sh .
+
+RUN chmod -R 755 /app/entrypoint.sh
+
+CMD [ "sh", "./entrypoint.sh" ]
 
 # CMD ["uvicorn","littlelemon.asgi:application","--host","0.0.0.0","--port","8000"]

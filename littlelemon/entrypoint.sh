@@ -3,10 +3,6 @@
 # Exit immediately if a command exits with a non-zero status
 set -e
 
-# Collect static files
-echo "Collecting static files..."
-python manage.py collectstatic --noinput
-
-# Start Uvicorn server
-echo "Starting Uvicorn..."
-exec "$@"
+python3 manage.py makemigrations
+python3 manage.py migrate
+gunicorn --bind 0.0.0.0:8000 littlelemon.wsgi:application
