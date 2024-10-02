@@ -11,19 +11,9 @@ This is a little project to demonstrate my knowledge of the Django framework. Th
 git clone git@github.com:mtoof/Final-project-Django-course.git
 ```
 
-2. Install the requirements
-3. Run the server
+2. Make sure you have `Docker` installed on your system and run the following command to run it:
+```bash
+make up
+```
 
-### 3. Install the requirements
-	pip install pipenv
-	pipenv install # install the requirements
-	pipenv shell # activate the virtual environment
-
-
-
-### 4. Run the server
-#### 4.1. Run the server
-I have already created a small database with some menu items. You can run the server and see the website. 
-
-	python manage.py runserver
-	go to http://127.0.0.1:8000/ to see the website
+3. Open your browser and go to `http://localhost:8000/` or `http://127.0.0.1:8000/` to see the website.
