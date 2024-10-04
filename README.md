@@ -1,6 +1,6 @@
 ### Introduction
 This repo consist of three projects:
-1. **LittleLemon Restaurante** - A restaurant website with a menu,menu-items and reservation form.
+1. **LittleLemon Restaurante** - A restaurant website developed in pure Django with a menu,menu-items and a reservation form
 2. **User Rating API** - A REST API for the restaurant users to rate the menu-items using DRF and Token authentication.
 3. **User manager API** - A REST API for the restaurant manager to manage users to add them to either `Manager` or `Delivery crew` using DRF and Token authentication.
 
