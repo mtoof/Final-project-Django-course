@@ -17,3 +17,10 @@ make up
 ```
 
 3. Open your browser and go to `http://localhost:8000/` or `http://127.0.0.1:8000/` to see the website.
+
+### Stop and deleting the container
+
+```bash
+make down # To stop the project
+make clean # To delete all the containers
+```
